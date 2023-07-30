@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(110, 90, 225);
+  
+}
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boundary {
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.board {
+  margin: 10%;
+}
+
+#heading {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.button {
+  margin-left: 46%;
+  margin-right: 40%;
+  margin-top: -5%;
+  min-width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    margin-left: 40%;
+  }
+}
+
+h4{
+  text-align: center;
+}
+
+.square{
+  border: none;
+}
